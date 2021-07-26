@@ -9,8 +9,7 @@ export default function Preview({ data }) {
       <div className="container">
         <div className="book_preview">
           <Link to="/" className="btn_home">
-            {/* <i class="bx bx-run"></i> */}
-            Menu
+            <i class="bx bx-run"></i>
           </Link>
           <div dangerouslySetInnerHTML={{ __html: preview }}></div>
         </div>
